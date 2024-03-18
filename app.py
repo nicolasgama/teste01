@@ -634,7 +634,7 @@ with gr.Blocks(analytics_enabled=False) as demo:
         with gr.Column():
             input_text_gr = gr.Textbox(
                 label="Text Prompt",
-                info="One or two sentences at a time is better. Up to 200 text characters.",
+                info="One or two sentences at a time is better. Up to 5000 text characters.",
                 value="Hi there, I'm your new voice clone. Try your best to upload quality audio",
             )
             language_gr = gr.Dropdown(
